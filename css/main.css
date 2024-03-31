@@ -1,0 +1,828 @@
+.header {
+    height: 195px;
+    background-color: var(--primary-color);
+}
+.header-top {
+    height: 40px;
+    /* border-bottom: 1px solid var(--border-color); */
+}
+.header-icon {
+    margin-right: 8px;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-list {
+    line-height: 40px;
+    display: flex;
+    list-style: none;
+}
+.contact-list__item {
+    margin-right: 20px;
+    color: var(--white-color);
+    font-size: 1.3rem;
+}
+#-margin-right{
+   margin-right: -20px;
+}
+.header-mid {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100px;
+}
+.header-logo {
+   width: 160px;
+   height: 90px;
+   color: #ffffff;
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 32px;
+   text-transform: uppercase;
+}
+.header-mid__search-in {
+   padding-left: 5px;
+   width: 392px;
+   height: 39px;
+   border: none;
+   border-radius: 6px 0 0 6px;
+   outline: none;
+}
+.header-mid__search-icon {
+    width: 65px;
+    height: 39px;
+    background-color: var(--key-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+}
+.header-mid__search-icon i {
+    font-size: 1.4rem;
+}
+.header-mid__cart{
+   width: 160px;
+}
+.cart {
+   font-size: 2.8rem;
+   color: var(--white-color);
+   float: right;
+}
+.cart:hover{
+   color: var(--key-color);
+   transition: 0.3s;
+}
+.header-bottom {
+   height: 55px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.header-bottom__nav {
+   display: flex;
+   list-style: none;
+}
+.header-bottom__nav-item {
+   margin-right: 40px;
+}
+#-margin-menu{
+   margin-right: -40px;
+}
+.header-bottom__nav-item a {
+   display: block;
+   height: 30px;
+   line-height: 30px;
+   color: var(--white-color);
+   font-size: 1.5rem;
+   font-weight: bold;
+   text-decoration: none;
+}
+.header-bottom__nav-item a:hover {
+   color: var(--key-color);
+   border-bottom: 1px solid var(--key-color);
+   transition: 0.3s;
+}
+/* HOME */
+.big-banner{      
+   width: 100%;
+   height: 600px;
+   background-color: #222222;
+   background-image: url(http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/slide-bg-2.jpg);
+   background-position: 78% 0%;
+   display: flex;
+   justify-content: center;
+}
+.big-banner-link{
+   width: 1230px;
+   height: 600px;
+}
+.textbox-home{
+   width: 554px;
+   height: 296px;
+   line-height: 25.6px;
+   margin-top: 166px;
+   margin-left: 62px;
+}
+.textbox-home>h4{
+   width: 554px;
+   height: 38px;
+   color: #ffffff;
+   font-size: 28px;
+   font-weight: 700;
+   line-height: 38.4px;
+   margin: 14.4px 0px;
+   text-align: left;
+}
+.textbox-home>h1{
+   width: 554px;
+   height: 56px;
+   color: #ffffff;
+   font-size: 56px;
+   font-weight: 700;
+   line-height: 56px;
+   margin: 11.2px 0px;
+   text-align: left;
+}
+.textbox-home>p{
+   width: 554px;
+   height: 77px;
+   color: #f1f1f1;
+   font-size: 18px;
+   line-height: 25.6px;
+   margin: 16px 0px;
+   text-align: left;
+}
+.button-white-is-outline{
+   width: 203px;
+   height: 49px;
+   letter-spacing: 0.4656px;
+   line-height: 33.9888px;
+   margin-top: 6px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   border-radius: 7px;
+   border-color: white;
+   border-style: solid;
+   border-width: 2px;
+   color: #ffffff;
+}
+.button-white-is-outline:hover{
+   border-color:  #C89979;
+   background-color: #C89979;
+   transition: 0.3s;
+}
+.view-product{
+   display: inline-block;
+   font-size: 15.52px;
+   font-weight: 700;
+   line-height: 24.832px;
+   padding: 10px 20px;
+   text-align: center;
+   text-transform: uppercase;
+}
+.gap-element{
+   width: 100%;
+   padding: 60px 0px 0px;
+}
+.section-content-1{
+   line-height: 25.6px;
+   width: 100%;
+   height: 330px;
+   display: flex;
+   justify-content: center;
+}
+.banner{
+   width: 1230px;
+   height: 330px;
+}
+.banner-link{
+   width: 615px;
+   height: 330px;
+   flex-basis: 50%;
+   line-height: 25.6px;
+   padding: 0px 15px 30px;
+   float: left;
+   position: relative;
+}
+.banner-manclock{
+   width: 585px;
+   height: 300px;                   
+   line-height: 25.6px;                                                                                                                                                                
+   background-image: url(http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/trend-1.jpg);
+   background-position: 80%;                                                  
+   background-size: 110%;
+   position: absolute;
+}
+.banner-manclock:hover{
+   background-size: 125%;
+   transition: 0.8s;
+   cursor: pointer;
+}
+.banner-womanclock{
+   width: 585px;
+   height: 300px;
+   line-height: 25.6px;
+   background-image: url(http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/trend-2.jpg);
+   background-position: 66%;
+   background-size: 130%;
+   position: absolute;
+}
+.banner-womanclock:hover{
+   background-size: 150%;
+   transition: 0.8s;
+}
+.textbox-banner-on{
+   width: 351px;
+   height: 101px;
+   margin: 98px 0px 0px 29px;
+   line-height: 16px;
+}
+.h3-banner-on{
+   width: 351px;
+   height: 30px;
+   color: #ffffff;
+   font-size: 20px;
+   line-height: 30px;
+   margin: 4px 0px;
+   text-align: left;
+}
+.h2-banner-on{
+   width: 351px;
+   height: 40px;
+   color: #ffffff;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 40px;
+   margin: 8px 0px;
+   text-align: left;
+}
+.divider-banner{
+   width: 60px;
+   color: #C89979;
+   margin: 10px 0px 15px 0px;
+   height: 0.5px;
+   border-style: solid;
+}
+.section-content-2{
+   width: 100%;
+   height: 573px;
+   display: flex;
+   justify-content: center;
+}
+.product-1{
+   width: 1230px;
+   height: 573px;
+}
+.best-sell{
+   width: 1200px;
+   margin: 0px auto;
+   font-size: 25.6px;
+}
+.flex-selected{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   width: 1230px;
+   height: 543px;
+   margin: 0px auto;
+}
+.selected{
+   width: 308px;
+   height: 497px;
+}
+.selected>a{
+   display: block;
+   width: 278px;
+   height: 324px;
+   margin: 0px auto;
+}
+.img-product{
+   width: 278px;
+   border: 1px solid var(--border-color-2);
+}
+.textbox-selected{
+   width: 278px;
+   height: 124px;
+   margin: 0px auto;
+   border: 1px solid var(--border-color-2);
+   border-top: 0px;
+}
+.textbox-selected>a{
+   display: block;
+   width: 258px;
+   height: 22px;
+   color: #3a3a3a;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 22.464px;
+   text-decoration: none;
+   margin: 0px 0px 20px 9px;
+   padding-top: 15px;
+}
+.price{
+   width: 65px;
+   height: 18px;
+   color: #c89979;
+   display: inline-block;
+   font-size: 15px;
+   font-weight: 1000;
+   line-height: 17px;
+   text-align: center;
+}
+.add-to-card-border{
+   height: 41px;
+   line-height: 23px;
+   text-align: center;
+}
+.add-to-cart-buuton{
+   background-color: #c89979;
+   color: #ffffff;
+   display: inline-block;
+   font-size: 14px;
+   font-weight: 900;
+   line-height: 28px;
+   margin: 10px 0px 0px;
+   padding: 0px 14px;
+   text-align: center;
+   text-decoration: none;
+}
+.add-to-cart-buuton:hover{
+   background-color: #9e785e;
+   transition: 0.3s;
+}
+.section-content-3{
+   width: 100%;
+   height: 370px;
+   display: flex;
+   justify-content: center;
+}
+.banner-classic-clock{
+   width: 585px;
+   height: 300px;                   
+   line-height: 25.6px;                                                                                                                                                                
+   background-image: url(http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/banner-03.jpg);
+   background-position: 80%;                                                  
+   background-size: 115%;
+   position: absolute;
+}
+.banner-classic-clock:hover{
+   background-size: 130%;
+   transition: 0.8s;
+   cursor: pointer;
+}
+.banner-smart-watch{
+   width: 585px;
+   height: 300px;
+   line-height: 25.6px;
+   background-image: url(http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/banner-04.jpg);
+   background-position: 66%;
+   background-size: 115%;
+   position: absolute;
+}
+.banner-smart-watch:hover{
+   background-size: 130%;
+   transition: 0.8s;
+}
+.textbox-banner-classic-clock{
+   width: 351px;
+   height: 125px;
+   margin: 60px 0px 0px 29px;
+   line-height: 16px;
+}
+.h3-banner-classic-clock{
+   width: 250px;
+   height: 30px;
+   color: #ffffff;
+   font-size: 18px;
+   line-height: 30px;
+   margin: 4px 0px;
+   text-align: left;
+}
+.h2-banner-classic-clock{
+   width: 351px;
+   height: 40px;
+   color: #ffffff;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 40px;
+   margin: 8px 0px;
+   text-align: left;
+}
+.textbox-banner-smart-watch{
+   width: 351px;
+   height: 125px;
+   margin: 100px 0px 0px 29px;
+   line-height: 16px;
+}
+.h3-banner-smart-watch{
+   width: 250px;
+   height: 30px;
+   color: #ffffff;
+   font-size: 18px;
+   line-height: 30px;
+   margin: 4px 0px;
+   text-align: left;
+}
+.h2-banner-smart-watch{
+   width: 351px;
+   height: 40px;
+   color: #ffffff;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 40px;
+   margin: 8px 0px;
+   text-align: left;
+}
+.section-content-4{
+   width: 100%;
+   height: 904px;
+   display: flex;
+   justify-content: center;
+}
+.popular-product{
+   width: 1200px;
+   margin: 0px auto;
+   font-size: 25.6px;
+}
+.product-1-popular-product{
+   width: 1230px;
+   height: 904px;
+}
+.flex-selected-popular-product{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+   width: 1230px;
+   height: 860px;
+   margin: 0px auto;
+}
+.selected-popular-product{
+   width: 246px;
+   height: 424px;
+}
+.selected-popular-product>a{
+   display: block;
+   width: 216px;
+   height: 252px;
+   margin: 0px auto;
+}
+.img-popular-product{
+   width: 216px;
+   border: 1px solid var(--border-color-2);
+}
+.textbox-selected-popular-product{
+   width: 216px;
+   height: 124px;
+   margin: 0px auto;
+   border: 1px solid var(--border-color-2);
+   border-top: 0px;
+}
+.textbox-selected-popular-product>a{
+   display: block;
+   width: 196px;
+   height: 22px;
+   color: #3a3a3a;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 22.464px;
+   text-decoration: none;
+   margin: 0px 0px 20px 9px;
+   padding-top: 15px;
+}
+.price{
+   width: 65px;
+   height: 18px;
+   color: #c89979;
+   display: inline-block;
+   font-size: 15px;
+   font-weight: 1000;
+   line-height: 17px;
+   text-align: center;
+}
+.add-to-card-border{
+   height: 41px;
+   line-height: 23px;
+   text-align: center;
+}
+.add-to-cart-buuton{
+   background-color: #c89979;
+   color: #ffffff;
+   display: inline-block;
+   font-size: 14px;
+   font-weight: 900;
+   line-height: 28px;
+   margin: 10px 0px 0px;
+   padding: 0px 14px;
+   text-align: center;
+   text-decoration: none;
+}
+.add-to-cart-buuton:hover{
+   background-color: #9e785e;
+   transition: 0.3s;
+}
+/* Intro */
+.section-content-1-intro{
+   width: 100%;
+   height: 541px;
+   display: flex;
+   justify-content: center;
+}
+.banner-intro{
+   width: 1230px;
+   height: 451px;
+   align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 60px;
+}
+.img-intro{
+   width: 615px;
+   height: 451px;
+}
+.img-intro>img{
+   width: 585px;
+   margin-left: 15px;
+}
+.textbox-intro{
+   flex-basis: 50%;
+   line-height: 25.6px;
+   padding: 0px 15px 30px;
+}
+.textbox-intro>h2{
+   font-size: 46px;
+   font-weight: 700;
+   line-height: 52px;
+   margin: 0px 0px 20px;
+}
+.textbox-intro>p{
+   font-size: 18px;
+   line-height: 25px;
+   margin: 0px 0px 20.8px;
+}
+.section-content-2-intro{
+   width: 100%;
+   height: 418px;
+   display: flex;
+   justify-content: center;
+}
+.policy-intro-page{
+   width: 1230px;
+   height: 298px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 60px;
+}
+.policy{
+   flex-basis: 33.3333%;
+   height: 149px;
+   padding: 0px 15px 30px;
+   display: flex;
+}
+.icon-textbox{
+   padding: 0px 0px 0px 16px;
+   text-align: left;
+   width: 320px;
+}
+.icon-policy{
+   width: 60px;
+   height: 120px;
+   font-size: 55px;
+   color: var(--border-color);
+}
+.icon-textbox>h3{
+   font-size: 24px;
+   margin: 0px 0px 10px;
+   text-align: left;
+}
+.icon-textbox>p{
+   font-size: 18px;
+   text-align: left;
+   color: var(--border-color);
+}
+.section-content-3-intro{
+   height: 338px;
+}
+.filter-banner{
+   background-color: rgba(0, 0, 0, 0.644);
+   width: 100%;
+   height: 258px;
+   display: flex;
+   justify-content: center;
+}
+.banner-achievement{
+   height: 258px;
+   background-image: url(http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/banner-portfolio.jpg);
+   background-position: 50%;
+   background-size: 95%;
+}
+.banner-achievement-inner{
+   width: 1230px;
+   height: 178px;
+   display: flex;
+}
+.textbox-banner-achievement{
+   height: 128px;
+   flex-basis: 25%;
+   color: white;
+   text-align: center;
+   margin-top: 50px;
+}
+.textbox-banner-achievement>h2{
+   font-size: 44px;
+   font-weight: 700;
+   line-height: 52px;
+}
+.textbox-banner-achievement>p{
+   font-size: 20px;
+   line-height: 52px;
+}
+/* Login, Register */
+.Login, .register {
+   margin-top: 80px;
+}
+.heading-form {
+    display: block;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+.login-name__label, .register-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+}
+.login-name, .login-pass, .register-name, .register-email, .register-pass,
+.register-repass {
+    height: 38px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.login-btn {
+    border: none;
+    margin-top: 20px;
+    min-width: 131px;
+    min-height: 39px;
+    background-color: var(--key-color);
+    color: var(--white-color);
+}
+.submit-email {
+    padding-top: 60px;
+    margin-top: 110px;
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--border-color-2);
+}
+.email {
+    padding-left: 5px;
+    min-width: 364px;
+    min-height: 40px;
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+}
+.input-submit {
+    background-color: var(--key-color);
+    color: var(--white-color);
+    min-width: 105px;
+    min-height: 40px;
+    border: none;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    height: 387px;
+    background-color: var(--primary-color);
+}
+.footer-information {
+    height: 327px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: var(--white-color);
+    border-bottom: 1px solid var(--border-color);
+}
+.imformation-heading {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+.imformation-list {
+    list-style: none;
+}
+.imformation-item {
+    font-size: 1.3rem;
+    line-height: 3.4rem;
+}
+/* Blogs */
+.main-content {
+    height: auto;
+}
+.heading-content {
+    margin: 38px 0;
+    text-align: center;
+    font-size: 2.2rem;
+}
+.body-content {
+    height: auto;
+    
+}
+.grid__col-25 {
+   
+    height: 100px;
+}
+.search-news {
+    height: 40px;
+    width: 238px;
+    outline: none;
+    border: 1px solid var(--border-color-2);
+    border-radius: 4px 0 0 4px;
+    padding-left: 18px;
+}
+.search-news__icon {
+    height: 40px;
+    width: 40px;
+    background-color: var(--key-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 0 4px 4px 0;
+}
+.wrap-list-news {
+   font-size: 0px;
+}
+.news-heading {
+    margin: 28px 0;
+}
+.list-news {
+    list-style: none;
+}
+.list-news__item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 18px;
+    border-bottom: 1px dashed var(--border-color-2); 
+    border-width: 70%;
+}
+.wrap-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.list-news__item p {
+    width: 200px;
+    font-size: 1.3rem;
+    margin-left: 5px;
+}
+.item-img {
+    width: 100%;
+    height: 100%;
+}
+.grid__col-75 {
+    border-left: 1px solid var(--border-color-2);
+    height: auto;
+}
+.list-news {
+    border: 1px solid var(--border-color-2);
+}
+.blogs-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.blogs-item {
+    border: 1px solid var(--border-color-2);
+    height: 275px;
+}
+.wrapper-img-item-blog {
+    height: 154px;
+    width: 100%;
+    object-fit: cover;
+}
+.wrapper-img-item-blog img {
+    width: 100%;
+    height: 100%;
+}
+.wrapper-text {
+    width: 100%;
+    padding: 15px 13px;
+}
+.wrapper-text h3 {
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+.seperate {
+    margin: 5px 0;
+    width: 30px;
+    height: 2px;
+    background-color: var(--border-color-2);
+}
+.wrapper-text p {
+    font-size: 1.3rem;
+    padding-top: 5px;
+}
+

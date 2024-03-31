@@ -1,0 +1,48 @@
+:root {
+   --white-color : #ffff;
+   --primary-color : #333333;
+   --border-color : #424242;
+    --border-color-2 : #cccccc;
+    --key-color : #c89979;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+   font-family: 'Calibri';
+}
+
+.grid {
+   width: 1200px;
+   max-width: 100%;
+   margin: 0 auto;
+}
+.grid>hr{
+   width: 1903px;
+}
+hr{
+   margin-left: -351.5px;
+   height: 1px;
+   color: var(--border-color);
+   border-style: solid ;
+}
+.grid__row {
+   display: flex;
+   flex-wrap: wrap; 
+   margin-left: -12px;
+   margin-right: -12px;
+}
+.grid__col {
+   padding-left: 12px;
+   padding-right: 12px;
+}
+.grid__col-25 {
+   width: 25%;
+}
+.grid__col-75 {
+   width: 75%;
+}
